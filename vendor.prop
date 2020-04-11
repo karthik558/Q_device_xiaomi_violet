@@ -10,8 +10,3 @@ persist.vendor.audio.calfile4=/vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 persist.vendor.audio.calfile5=/vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb
 persist.vendor.audio.calfile7=/vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb
-
-# Display post-processing
-ro.vendor.display.ad=1
-ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
-ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
