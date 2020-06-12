@@ -54,4 +54,8 @@
 
     <!-- Wired/BT headset focus mode -->
     <bool name="config_deviceRingtoneFocusMode">true</bool>
+
+    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
+    <bool name="config_defaultRingtonePickerEnabled">true</bool>
+
 </resources>
