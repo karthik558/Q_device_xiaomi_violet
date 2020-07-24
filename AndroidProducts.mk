@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_violet.mk
+    $(LOCAL_DIR)/havoc_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_violet-userdebug \
-    lineage_violet-eng
+    havoc_violet-userdebug \
+    havoc_violet-eng
