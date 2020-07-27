@@ -31,3 +31,7 @@ export export HAVOC_BUILD_TYPE=Official
 # maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.havoc.maintainer=athuld
+
+#GApps
+export export WITH_GAPPS=true
+export export TARGET_GAPPS_ARCH=arm64
