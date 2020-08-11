@@ -17,6 +17,11 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
+#Maintainer
+export CHERISH_BUILD_TYPE:= OFFICIAL
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.cherish.maintainer=Karthik Lal
+
 BUILD_FINGERPRINT := "google/flame/flame:10/QQ3A.200705.002/6506677:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
