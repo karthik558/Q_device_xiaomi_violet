@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_violet
+PRODUCT_NAME := cherish_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
@@ -24,13 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# official tag
-export export HAVOC_BUILD_TYPE=Official
-
-# maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=athuld
 
 #GApps
 export export WITH_GAPPS=true
