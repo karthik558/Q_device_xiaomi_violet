@@ -33,3 +33,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 #GApps
 export export WITH_GAPPS=true
 export export TARGET_GAPPS_ARCH=arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
