@@ -21,7 +21,7 @@ TARGET_OTA_ASSERT_DEVICE := violet
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_RAMDISK_OFFSET := 0x01000000
-TARGET_KERNEL_CONFIG := vendor/lineage_violet_defconfig
+TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
