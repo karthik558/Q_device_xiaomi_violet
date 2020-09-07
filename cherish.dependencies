@@ -1,6 +1,27 @@
 [
   {
-    "repository": "android_device_xiaomi_sm6150-common",
+    "repository": "CherishOS-Devices/device_xiaomi_6150-common",
     "target_path": "device/xiaomi/sm6150-common"
-  }
+    "branch": "ten"
+  },
+  {
+    "repository": "CherishOS-Devices/device_xiaomi_violet",
+    "target_path": "device/xiaomi/violet"
+    "branch": "Cherish_gapps"
+  },
+  {
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch": "master"
+  },
+  {
+    "repository": "karthik558/kernel_xiaomi_sm6150",
+    "target_path": "kernel/xiaomi/sm6150"
+    "branch": "ten"
+  },
+  {
+    "repository": "karthik5581/proprietary_vendor_xiaomi",
+    "target_path": "device/xiaomi/violet"
+    "remote": "gitlab"
+  },
 ]
