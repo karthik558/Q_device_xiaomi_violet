@@ -24,4 +24,24 @@
     "target_path": "device/xiaomi/violet"
     "remote": "gitlab"
   },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-17.1"
+  },
+  {
+    "repository": "LineageOS/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/sm8150/display",
+    "branch": "lineage-17.1-caf-sm8150"
+  },
+  {
+    "repository": "LineageOS/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/sm8150/audio",
+    "branch": "lineage-17.1-caf-sm8150"
+  },
+  {
+    "repository": "LineageOS/android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/sm8150/media",
+    "branch": "lineage-17.1-caf-sm8150"
+  },
 ]
