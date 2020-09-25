@@ -8,19 +8,18 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_violet
+PRODUCT_NAME := ancient_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 #Maintainer
-export CHERISH_BUILD_TYPE:= OFFICIAL
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.cherish.maintainer=Karthik Lal
+ro.ancient.maintainer=Karthik Lal
 
 BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"
 
