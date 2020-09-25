@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_violet.mk
+    $(LOCAL_DIR)/ancient_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_violet-userdebug \
-    cherish_violet-eng
+    ancient_violet-userdebug \
+    ancient_violet-eng
