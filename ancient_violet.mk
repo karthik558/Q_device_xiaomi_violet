@@ -32,8 +32,5 @@ ro.build.fingerprint=google/coral/coral:11/RP1A.200720.009/6720564:user/release-
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#GApps
-export export WITH_GAPPS=true
-export export TARGET_GAPPS_ARCH=arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+#Vanilla
+ANCIENT_NOGAPPS=true
